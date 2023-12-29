@@ -1,0 +1,35 @@
+
+@media screen and (max-width: 800px) {
+    .nav__links {
+        display: none;
+    }
+    #main .nav .social__links {
+        display: none;
+    }
+    .open__icon {
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
