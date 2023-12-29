@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+:root {
+    --body-font: 'Poppins', sans-serif;
+    --body-font-size: 16px;
+    --white-alt: #dbdbdb;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: var(--body-font-size);
+    min-height: 100vh;
+    position: relative;
+    background: url('./assets/lee-campbell-DtDlVpy-vvQ-unsplash.jpg')center/cover no-repeat;
+    font-family: var(--body-font);
+}
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: -1;
+}
+nav {
+    background-color: #dbdbdb;
+}
+.logo {
+    font-size: 2em;
+    font-weight: 600;
+    font-style: italic;
+}
