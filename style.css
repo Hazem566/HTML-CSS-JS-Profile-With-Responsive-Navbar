@@ -182,14 +182,13 @@ body::before {
 }
 .nav__perfil .logo {
     text-decoration-color: var(--black);
-    font-style: normal; 
+    font-style: normal;
 }
 .nav__perfil .title {
     letter-spacing: 0.15rem;
     font-size: 1.25rem;
 }
 .menu__item {
-    display: block;
     margin: 2.5rem 0;
 }
 .menu__link {
