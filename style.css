@@ -27,6 +27,19 @@ body::before {
     background: rgba(0,0,0,0.6);
     z-index: -1;
 }
+.icon {
+    justify-content: space-between;
+    height: 26px;
+    width: 33px;
+    flex-direction: column;
+    cursor: pointer;
+}
+.link {
+    transition: all 300ms ease;
+    text-transform: capitalize;
+    font-size: 1.4em;
+    font-weight: 500;
+}
 /*==========
     Main Nav
 ==========*/
@@ -52,10 +65,6 @@ body::before {
 }
 .open__icon {
     display: none;
-    flex-direction: column;
-    width: 33px;
-    height: 26px;
-    justify-content: space-between;
     cursor: pointer;
 }
 .open__icon span {
@@ -70,7 +79,6 @@ body::before {
     width: 45vw;
 }
 .nav__item {
-    display: block;
     list-style: none;
 }
 .nav__link {
@@ -129,12 +137,7 @@ body::before {
 .close__icon {
     position: absolute;
     display: flex;
-    justify-content: space-between;
-    height: 26px;
-    width: 33px;
-    flex-direction: column;
     right: 2rem;
-    cursor: pointer;
 }
 .close__icon span{
     background-color: var(--main-color);
@@ -183,8 +186,7 @@ body::before {
 }
 .nav__perfil .title {
     letter-spacing: 0.15rem;
-}
-.menu__links {
+    font-size: 1.25rem;
 }
 .menu__item {
     display: block;
@@ -192,10 +194,6 @@ body::before {
 }
 .menu__link {
     color: var(--main-color);
-    transition: all 300ms ease;
-    text-transform: capitalize;
-    font-size: 1.4em;
-    font-weight: 500;
     text-decoration: none;
     text-shadow: 0 0 5px var(--main-color);
 }
