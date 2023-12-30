@@ -10,9 +10,38 @@
         display: flex;
     }
 }
-
-
-
+@media screen and (min-width: 801px) {
+    #aside__nav {
+        display: none;
+    }
+}
+@media screen and (max-width: 940px) {
+    #profile {
+        flex-direction: column;
+    }
+    .profile__img__container {
+        width: 18em;
+        height: 18em;
+    }
+}
+@media screen and (max-width: 565px) {
+    body {
+        font-size: 12px;
+    }
+    .profile__img__container {
+        height: 13em;
+        width: 13em;
+    }
+    .btn {
+        padding: 0.8em 1.8em;
+    }
+    .btn__link {
+        font-size: 1.2em;
+    }
+    .btns {
+        gap: 0.5rem;
+    }
+}
 
 
 
